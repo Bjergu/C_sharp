@@ -33,5 +33,7 @@ namespace TAO_SCV_Ready_v_05.Models
         public System.Data.Entity.DbSet<TAO_SCV_Ready_v_05.Models.HourlyRead> HourlyReads { get; set; }
 
         public System.Data.Entity.DbSet<TAO_SCV_Ready_v_05.Models.DailyRead> DailyReads { get; set; }
+
+        public System.Data.Entity.DbSet<TAO_SCV_Ready_v_05.Models.ContactForm> ContactForms { get; set; }
     }
 }

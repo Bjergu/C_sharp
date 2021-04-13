@@ -16,8 +16,8 @@ namespace TAO_SCV_Ready_v_05.Context
 
         public DbSet<HourlyRead> HourlyReadings { get; set; }
         public DbSet<DailyRead> DailyReads { get; set; }
-        //public System.Data.Entity.DbSet<TAO_SCV_Ready.Models.DailyRead> DailyReads { get; set; }
-
+        public DbSet<ContactForm> ContactForms { get; set; }
+        
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
